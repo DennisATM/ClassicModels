@@ -1,12 +1,37 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+
     <router-view/>
   </div>
 </template>
+
+<script>
+import api from '@/Api'
+
+export default {
+  name: 'App',
+  async created () {
+    //  CONSUMO API
+    const login = await api.login()
+    this.$store.state.login = login
+
+    const dashboard = await api.dashboard()
+    this.$store.state.dashboard = dashboard
+
+    const oficinas = await api.oficinas()
+    this.$store.state.oficinas = oficinas
+
+    const estados = await api.estados()
+    this.$store.state.estados = estados
+
+    const ordenes = await api.ordenes()
+    this.$store.state.ordenes = ordenes
+
+    const detalleOrden = await api.detalle_orden()
+    this.$store.state.detalle_orden = detalleOrden
+  }
+}
+</script>
 
 <style>
 #app {
