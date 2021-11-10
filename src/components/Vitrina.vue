@@ -8,7 +8,7 @@
     </div>
       <div class="card-body">
           <h3>Bienvenido</h3>
-          Bienvenido al sistema de Ordenes e Inventario de ClassicModels.</div>
+          Bienvenido al sistema de Órdenes e Inventario de ClassicModels.</div>
     </div>
   </div>
 </template>
