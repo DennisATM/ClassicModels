@@ -16,7 +16,7 @@
       "cant_productos": 45,
       "fecha_entrega": "2020-07-20T00:00:00.000Z",
       "avance_preparacion": 0.4,
-      "estado": "Preparacion"
+      "estado": "Preparación"
     },
     {
       "num_orden": 123443,
@@ -25,7 +25,7 @@
       "cant_productos": 120,
       "fecha_entrega": "2020-07-18T00:00:00.000Z",
       "avance_preparacion": 0.6,
-      "estado": "Preparacion"
+      "estado": "Preparación"
     },
     {
       "num_orden": 123441,
