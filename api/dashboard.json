@@ -1,12 +1,12 @@
 {
   "kpis": [
     {
-      "nombre": "cumplimiento diario de ordenes",
+      "nombre": "Cumplimiento diario de órdenes",
       "entregadas": "1500",
       "pendientes": "500"
     },
     {
-      "nombre": "Ordenes atrasadas jornada",
+      "nombre": "Órdenes atrasadas jornada",
       "totales": "700",
       "atrasadas": "14"
     }
@@ -22,13 +22,13 @@
       "num_orden": "123445",
       "cliente": "Jugueteria Asimov SpA",
       "fecha_entrega": "2020-07-20",
-      "estado": "Preparacion"
+      "estado": "Preparación"
     },
     {
       "num_orden": "123444",
       "cliente": "Bazar Don Lalo LTDA",
       "fecha_entrega": "2020-07-18",
-      "estado": "Preparacion"
+      "estado": "Preparación"
     },
     {
       "num_orden": "123443",
