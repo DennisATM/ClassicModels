@@ -31,7 +31,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Ordenes
+              Órdenes
             </a>
           </li>
         </ul>
