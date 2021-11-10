@@ -20,13 +20,13 @@
             <div class="col">
               <h4>
                 {{ dashboard.kpis[0].entregadas }} <br />
-                <span class="dash__subtitle">Ordenes Entregadas</span>
+                <span class="dash__subtitle">Órdenes Entregadas</span>
               </h4>
             </div>
             <div class="col">
               <h4>
                 {{ dashboard.kpis[0].pendientes }} <br />
-                <span class="dash__subtitle">Ordenes Pendientes</span>
+                <span class="dash__subtitle">Órdenes Pendientes</span>
               </h4>
             </div>
           </div>
@@ -37,7 +37,7 @@
         <table class="table table-sm ml-3">
           <thead>
             <tr>
-              <th scope="col">N° Orden</th>
+              <th scope="col">N° Órden</th>
               <th scope="col">Cliente</th>
               <th scope="col">Fecha Entrega</th>
               <th scope="col">Estado</th>
@@ -77,13 +77,13 @@
             <div class="col">
               <h4>
                 {{ dashboard.kpis[1].totales }} <br />
-                <span class="dash__subtitle">Ordenes Totales</span>
+                <span class="dash__subtitle">Órdenes Totales</span>
               </h4>
             </div>
             <div class="col">
               <h4>
                 {{ dashboard.kpis[1].atrasadas }} <br />
-                <span class="dash__subtitle">Ordenes Atrasadas</span>
+                <span class="dash__subtitle">Órdenes Atrasadas</span>
               </h4>
             </div>
           </div>
@@ -94,7 +94,7 @@
         <table class="table table-sm ml-3">
           <thead>
             <tr>
-              <th scope="col">N° Orden</th>
+              <th scope="col">N° Órden</th>
               <th scope="col">Cliente</th>
               <th scope="col">Fecha Devolución</th>
             </tr>
